@@ -1,0 +1,157 @@
+@using PivotGrid___Editing_using_DataGrid.Models
+
+<h2>Home</h2>
+
+@(Html.DevExtreme().PivotGrid<Sale>()
+    .ID("sales")
+    .AllowSortingBySummary(true)
+    .AllowSorting(true)
+    .AllowFiltering(true)
+    .AllowExpandAll(true)
+    .ShowBorders(true)
+    .FieldChooser(fieldChooser => fieldChooser.Enabled(false))
+    .OnCellClick("onCellClick")
+    .DataSource(d => d
+        .Store(s => s.Mvc().Controller("SampleData")
+            .LoadAction("Get")
+            .Key("OrderId")
+        )
+        .Fields(fields => {
+            fields.AddFor(m => m.Region)
+                .Area(PivotGridArea.Row)
+                .Width(120);
+
+            fields.AddFor(m => m.City)
+                .Area(PivotGridArea.Row)
+                .Width(150);
+
+            fields.AddFor(m => m.Date)
+                .DataType(PivotGridDataType.Date)
+                .Area(PivotGridArea.Column);
+
+            fields.AddFor(m => m.Amount)
+                .Caption("Total")
+                .DataType(PivotGridDataType.Number)
+                .SummaryType(SummaryType.Sum)
+                .Format(Format.Currency)
+                .Area(PivotGridArea.Data);
+        })
+    )
+)
+@(Html.DevExtreme().Popup()
+    .ID("salesPopup")
+    .Width(600)
+    .Height(400)
+    .ContentTemplate(new TemplateName("datagrid-template"))
+    .OnShowing("onShowing")
+    .OnHiding("onHiding")
+    .OnShown("onShown")
+)
+
+@using (Html.DevExtreme().NamedTemplate("datagrid-template"))
+{
+    @(Html.DevExtreme().DataGrid<Sale>()
+        .ID("drill-down")
+        .Editing(editing => editing
+            .AllowUpdating(true)
+            .AllowAdding(true)
+            .AllowDeleting(true)
+        )
+        .OnRowUpdating("onRowUpdating")
+        .OnRowInserting("onRowInserting")
+        .OnRowRemoving("onRowRemoving")
+        .Width(560)
+        .Height(300)
+        .Columns(columns => {
+            columns.AddFor(m => m.Region);
+
+            columns.AddFor(m => m.City);
+
+            columns.AddFor(m => m.Amount)
+                .DataType(GridColumnDataType.Number);
+
+            columns.AddFor(m => m.Date)
+                .DataType(GridColumnDataType.Date);
+        })
+    )
+}
+
+<script>
+    var drillDownDataSource = {};
+
+    function onCellClick(e) {
+        if (e.area == "data") {
+            var pivotGridDataSource = e.component.getDataSource(),
+                rowPathLength = e.cell.rowPath.length,
+                rowPathName = e.cell.rowPath[rowPathLength - 1],
+                popupTitle = (rowPathName ? rowPathName : "Total") + " Drill Down Data";
+
+            drillDownDataSource = pivotGridDataSource.createDrillDownDataSource(e.cell);
+
+            var salesPopup = $("#salesPopup").dxPopup("instance");
+            salesPopup.option("title", popupTitle);
+            salesPopup.show();
+        }
+    }
+
+    function onShowing(e) {
+        drillDownDataSource.store().load().done(function (items) {
+            var grid = $("#drill-down").dxDataGrid("instance");
+            grid.option("dataSource", {
+                store: new DevExpress.data.ArrayStore({
+                    key: "OrderId",
+                    data: items
+                })
+            });
+        });
+    }
+
+    function onHiding(e) {
+        var pivotGrid = $("#sales").dxPivotGrid("instance");
+        pivotGrid.getDataSource().reload();
+    }
+
+    function onShown(e) {
+        var grid = $("#drill-down").dxDataGrid("instance");
+        grid.updateDimensions();
+    }
+
+    function onRowUpdating(e) {
+        var d = $.Deferred();
+        $.ajax({
+            url: '/api/SampleData/UpdateSale',
+            type: 'PUT',
+            data: { key: e.key, values: JSON.stringify(e.newData) },
+            success: function (result) {
+                d.resolve(!result);
+            }
+        });
+        e.cancel = d.promise();
+    }
+
+    function onRowInserting(e) {
+        var d = $.Deferred();
+        $.ajax({
+            url: '/api/SampleData/InsertSale',
+            type: 'POST',
+            data: { values: JSON.stringify(e.data) },
+            success: function (result) {
+                d.resolve(!result);
+            }
+        });
+        e.cancel = d.promise();
+    }
+
+    function onRowRemoving(e) {
+        var d = $.Deferred();
+        $.ajax({
+            url: '/api/SampleData/DeleteSale',
+            type: 'DELETE',
+            data: { key: e.key },
+            success: function (result) {
+                d.resolve(!result);
+            }
+        });
+        e.cancel = d.promise();
+    }
+</script>
