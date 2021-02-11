@@ -1,11 +1,6 @@
 # Angular
 
-Take a look at the following files of this example to see the required code:
-
-- [app.component.html](https://github.com/DevExpress-Examples/PivotGrid---How-to-implement-editing-using-DataGrid/blob/20.1.3%2B/Angular/src/app/app.component.html)
-- [app.component.ts](https://github.com/DevExpress-Examples/PivotGrid---How-to-implement-editing-using-DataGrid/blob/20.1.3%2B/Angular/src/app/app.component.ts)
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.29.
 
 ## Development server
 
