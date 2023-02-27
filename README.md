@@ -29,7 +29,7 @@ This example demonstrates how to use the DataGrid component and PivotGrid's [Dri
 - **React**
     - [App.js](React/src/App.js)
 - **ASP.NET**    
-    - [Index.cshtml](ASP.NET/PivotGrid%20-%20Editing using DataGrid/Views/Home/Index.cshtml)
+    - [Index.cshtml](ASP.NET/PivotGrid%20-%20Editing%20using%20DataGrid/Views/Home/Index.cshtml)
 
 ## Documentation
 
