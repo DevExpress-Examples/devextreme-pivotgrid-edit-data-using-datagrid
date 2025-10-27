@@ -1,0 +1,42 @@
+<div class="long-title"><h3>Sales Amount by Region</h3></div>
+<dx-pivot-grid id="sales"
+  [allowSortingBySummary]="true"
+  [allowSorting]="true"
+  [allowFiltering]="true"
+  [allowExpandAll]="true"
+  [height]="440"
+  [showBorders]="true"
+  [dataSource]="pivotGridDataSource"
+  (onCellClick)="onCellClick($event)">
+  <dxo-export [enabled]="true" fileName="Sales"></dxo-export>
+  <dxo-field-chooser [enabled]="false"></dxo-field-chooser>
+</dx-pivot-grid>
+<dx-popup
+    [width]="600"
+    [height]="400"
+	[title]="popupTitle"
+    [(visible)]="popupVisible"
+    (onShowing)="onPopupShowing($event)"
+	(onHiding)="onPopupHiding($event)"
+	(onShown)="onPopupShown($event)">
+    <div *dxTemplate="let data of 'content'">
+        <dx-data-grid #drillDownDataGrid
+            [dataSource]="dataGridDataSource"
+            [showBorders]="true"
+            [width]="560"
+            [height]="300"
+			(onRowUpdating)="onRowUpdating($event)"
+            (onRowAdding)="onRowAdding($event)"
+            (onRowRemoving)="onRowRemoving($event)">
+            <dxo-editing
+                [allowUpdating]="true"
+                [allowAdding]="true"
+                [allowDeleting]="true">
+            </dxo-editing>
+            <dxi-column dataField="region"></dxi-column>
+            <dxi-column dataField="city"></dxi-column>
+            <dxi-column dataField="amount" dataType="number"></dxi-column>
+            <dxi-column dataField="date" dataType="date"></dxi-column>
+        </dx-data-grid>
+    </div>
+</dx-popup>
