@@ -7,7 +7,7 @@
 
 This example demonstrates how to use the DataGrid component and PivotGrid's [Drill Down](https://js.devexpress.com/Demos/WidgetsGallery/Demo/PivotGrid/DrillDown) feature to edit data in PivotGrid.
 
-![PivotGrid drill down feature](./pivot-grid-drill-down.gif)
+![PivotGrid drill down feature](./images/pivot-grid-drill-down.gif)
 
 ## Implementation Details
 
