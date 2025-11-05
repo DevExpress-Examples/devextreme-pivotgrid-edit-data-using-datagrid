@@ -7,7 +7,7 @@ import DataGrid, { Column, Editing } from 'devextreme-react/data-grid';
 import type { DataGridRef, DataGridTypes } from 'devextreme-react/data-grid';
 import {
   DataSource, ArrayStore, type LoadResult, isItemsArray,
-} from 'devextreme-react/common/Data';
+} from 'devextreme-react/common/data';
 import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
 import notify from 'devextreme/ui/notify';
 import { sales, type Sale } from './data';

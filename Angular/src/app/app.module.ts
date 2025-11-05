@@ -15,7 +15,7 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     DxDataGridModule,
     DxPivotGridModule,
-    DxPopupModule
+    DxPopupModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
