@@ -26,11 +26,11 @@ This example demonstrates how to use the DataGrid component and PivotGrid's [Dri
     - [app.component.html](Angular/src/app/app.component.html)
     - [app.component.ts](Angular/src/app/app.component.ts)
 - **Vue**
-    - [App.vue](Vue/src/App.vue)
+    - [Home.vue](Vue/src/components/HomeContent.vue)
 - **React**
-    - [App.js](React/src/App.js)
+    - [App.js](React/src/App.tsx)
 - **ASP.NET**    
-    - [Index.cshtml](ASP.NET/PivotGrid%20-%20Editing%20using%20DataGrid/Views/Home/Index.cshtml)
+    - [Index.cshtml](ASP.NET%20Core/Views/Home/Index.cshtml)
 
 ## Documentation
 
