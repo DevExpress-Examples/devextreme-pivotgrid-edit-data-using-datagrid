@@ -1,3 +1,62 @@
-<div class="default-style">
-  <dx-button [text]="buttonText" (onClick)="onClick($event)"></dx-button>
+<div class="long-title">
+  <h3>Sales Amount by Region</h3>
 </div>
+<dx-pivot-grid
+  id="sales"
+  [allowSortingBySummary]="true"
+  [allowSorting]="true"
+  [allowFiltering]="true"
+  [allowExpandAll]="true"
+  [height]="440"
+  [showBorders]="true"
+  [dataSource]="pivotGridDataSource"
+  (onCellClick)="onCellClick($event)"
+>
+  <dxo-pivot-grid-export
+    [enabled]="true"
+    fileName="Sales"
+  ></dxo-pivot-grid-export>
+  <dxo-pivot-grid-field-chooser
+    [enabled]="false"
+  ></dxo-pivot-grid-field-chooser>
+</dx-pivot-grid>
+<dx-popup
+  [width]="600"
+  [height]="400"
+  [title]="popupTitle"
+  [showCloseButton]="true"
+  [(visible)]="popupVisible"
+  (onShowing)="onPopupShowing()"
+  (onHiding)="onPopupHiding()"
+  (onShown)="onPopupShown()"
+>
+  <div *dxTemplate="let data of 'content'">
+    <dx-data-grid
+      #drillDownDataGrid
+      [dataSource]="dataGridDataSource"
+      [showBorders]="true"
+      [width]="560"
+      [height]="300"
+      (onRowUpdating)="onRowUpdating($event)"
+      (onRowInserting)="onRowAdding($event)"
+      (onRowRemoving)="onRowRemoving($event)"
+    >
+      <dxo-data-grid-editing
+        [allowUpdating]="true"
+        [allowAdding]="true"
+        [allowDeleting]="true"
+      >
+      </dxo-data-grid-editing>
+      <dxi-data-grid-column dataField="region"></dxi-data-grid-column>
+      <dxi-data-grid-column dataField="city"></dxi-data-grid-column>
+      <dxi-data-grid-column
+        dataField="amount"
+        dataType="number"
+      ></dxi-data-grid-column>
+      <dxi-data-grid-column
+        dataField="date"
+        dataType="date"
+      ></dxi-data-grid-column>
+    </dx-data-grid>
+  </div>
+</dx-popup>
