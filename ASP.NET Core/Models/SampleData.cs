@@ -97,22 +97,6 @@ static class SampleData
             },
             new Sale {
                 OrderId = 10259,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 2260,
-                Date = DateTime.Parse("2013/01/01")
-            },
-            new Sale {
-                OrderId = 10260,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 2910,
-                Date = DateTime.Parse("2013/01/26")
-            },
-            new Sale {
-                OrderId = 10261,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -120,7 +104,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/01/05")
             },
             new Sale {
-                OrderId = 10262,
+                OrderId = 10260,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -128,7 +112,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/01/14")
             },
             new Sale {
-                OrderId = 10263,
+                OrderId = 10261,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -136,7 +120,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/01/05")
             },
             new Sale {
-                OrderId = 10264,
+                OrderId = 10262,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -144,7 +128,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/01/15")
             },
             new Sale {
-                OrderId = 10265,
+                OrderId = 10263,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -152,7 +136,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/01/01")
             },
             new Sale {
-                OrderId = 10266,
+                OrderId = 10264,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -160,7 +144,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/01/10")
             },
             new Sale {
-                OrderId = 10267,
+                OrderId = 10265,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -168,7 +152,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/01/23")
             },
             new Sale {
-                OrderId = 10268,
+                OrderId = 10266,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -176,7 +160,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/01/14")
             },
             new Sale {
-                OrderId = 10269,
+                OrderId = 10267,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -184,7 +168,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/01/26")
             },
             new Sale {
-                OrderId = 10270,
+                OrderId = 10268,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -192,7 +176,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/01/24")
             },
             new Sale {
-                OrderId = 10271,
+                OrderId = 10269,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -200,7 +184,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/01/22")
             },
             new Sale {
-                OrderId = 10272,
+                OrderId = 10270,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -208,7 +192,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/01/25")
             },
             new Sale {
-                OrderId = 10273,
+                OrderId = 10271,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -216,7 +200,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/20")
             },
             new Sale {
-                OrderId = 10274,
+                OrderId = 10272,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -224,7 +208,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/12")
             },
             new Sale {
-                OrderId = 10275,
+                OrderId = 10273,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -232,7 +216,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/13")
             },
             new Sale {
-                OrderId = 10276,
+                OrderId = 10274,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -240,7 +224,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/09")
             },
             new Sale {
-                OrderId = 10277,
+                OrderId = 10275,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -248,7 +232,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/04")
             },
             new Sale {
-                OrderId = 10278,
+                OrderId = 10276,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -256,7 +240,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/03")
             },
             new Sale {
-                OrderId = 10279,
+                OrderId = 10277,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -264,7 +248,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/04")
             },
             new Sale {
-                OrderId = 10280,
+                OrderId = 10278,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -272,7 +256,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/18")
             },
             new Sale {
-                OrderId = 10281,
+                OrderId = 10279,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -280,7 +264,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/18")
             },
             new Sale {
-                OrderId = 10282,
+                OrderId = 10280,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -288,7 +272,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/20")
             },
             new Sale {
-                OrderId = 10283,
+                OrderId = 10281,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -296,23 +280,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/04")
             },
             new Sale {
-                OrderId = 10284,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 5840,
-                Date = DateTime.Parse("2013/02/13")
-            },
-            new Sale {
-                OrderId = 10285,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 6750,
-                Date = DateTime.Parse("2013/02/11")
-            },
-            new Sale {
-                OrderId = 10286,
+                OrderId = 10282,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -320,7 +288,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/03")
             },
             new Sale {
-                OrderId = 10287,
+                OrderId = 10283,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -328,7 +296,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/08")
             },
             new Sale {
-                OrderId = 10288,
+                OrderId = 10284,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -336,7 +304,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/17")
             },
             new Sale {
-                OrderId = 10289,
+                OrderId = 10285,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -344,7 +312,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/08")
             },
             new Sale {
-                OrderId = 10290,
+                OrderId = 10286,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -352,7 +320,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/20")
             },
             new Sale {
-                OrderId = 10291,
+                OrderId = 10287,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -360,7 +328,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/11")
             },
             new Sale {
-                OrderId = 10292,
+                OrderId = 10288,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -368,7 +336,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/15")
             },
             new Sale {
-                OrderId = 10293,
+                OrderId = 10289,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -376,7 +344,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/21")
             },
             new Sale {
-                OrderId = 10294,
+                OrderId = 10290,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -384,7 +352,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/02/04")
             },
             new Sale {
-                OrderId = 10295,
+                OrderId = 10291,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -392,7 +360,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/04")
             },
             new Sale {
-                OrderId = 10296,
+                OrderId = 10292,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -400,7 +368,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/20")
             },
             new Sale {
-                OrderId = 10297,
+                OrderId = 10293,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -408,7 +376,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/04")
             },
             new Sale {
-                OrderId = 10298,
+                OrderId = 10294,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -416,7 +384,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/17")
             },
             new Sale {
-                OrderId = 10299,
+                OrderId = 10295,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -424,7 +392,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/21")
             },
             new Sale {
-                OrderId = 10300,
+                OrderId = 10296,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -432,7 +400,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/08")
             },
             new Sale {
-                OrderId = 10301,
+                OrderId = 10297,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -440,7 +408,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/19")
             },
             new Sale {
-                OrderId = 10302,
+                OrderId = 10298,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -448,7 +416,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/20")
             },
             new Sale {
-                OrderId = 10303,
+                OrderId = 10299,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -456,7 +424,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/18")
             },
             new Sale {
-                OrderId = 10304,
+                OrderId = 10300,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -464,7 +432,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/25")
             },
             new Sale {
-                OrderId = 10305,
+                OrderId = 10301,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -472,23 +440,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/07")
             },
             new Sale {
-                OrderId = 10306,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 2000,
-                Date = DateTime.Parse("2013/03/07")
-            },
-            new Sale {
-                OrderId = 10307,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 1410,
-                Date = DateTime.Parse("2013/03/10")
-            },
-            new Sale {
-                OrderId = 10308,
+                OrderId = 10302,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -496,7 +448,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/19")
             },
             new Sale {
-                OrderId = 10309,
+                OrderId = 10303,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -504,7 +456,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/24")
             },
             new Sale {
-                OrderId = 10310,
+                OrderId = 10304,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -512,7 +464,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/08")
             },
             new Sale {
-                OrderId = 10311,
+                OrderId = 10305,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -520,7 +472,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/17")
             },
             new Sale {
-                OrderId = 10312,
+                OrderId = 10306,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -528,7 +480,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/08")
             },
             new Sale {
-                OrderId = 10313,
+                OrderId = 10307,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -536,7 +488,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/21")
             },
             new Sale {
-                OrderId = 10314,
+                OrderId = 10308,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -544,7 +496,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/19")
             },
             new Sale {
-                OrderId = 10315,
+                OrderId = 10309,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -552,7 +504,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/12")
             },
             new Sale {
-                OrderId = 10316,
+                OrderId = 10310,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -560,15 +512,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/04")
             },
             new Sale {
-                OrderId = 10317,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 3080,
-                Date = DateTime.Parse("2013/03/22")
-            },
-            new Sale {
-                OrderId = 10318,
+                OrderId = 10311,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -576,15 +520,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/03/23")
             },
             new Sale {
-                OrderId = 10319,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 1200,
-                Date = DateTime.Parse("2013/03/04")
-            },
-            new Sale {
-                OrderId = 10320,
+                OrderId = 10312,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -592,7 +528,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/15")
             },
             new Sale {
-                OrderId = 10321,
+                OrderId = 10313,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -600,7 +536,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/07")
             },
             new Sale {
-                OrderId = 10322,
+                OrderId = 10314,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -608,7 +544,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/10")
             },
             new Sale {
-                OrderId = 10323,
+                OrderId = 10315,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -616,7 +552,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/10")
             },
             new Sale {
-                OrderId = 10324,
+                OrderId = 10316,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -624,7 +560,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/12")
             },
             new Sale {
-                OrderId = 10325,
+                OrderId = 10317,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -632,7 +568,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/08")
             },
             new Sale {
-                OrderId = 10326,
+                OrderId = 10318,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -640,7 +576,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/13")
             },
             new Sale {
-                OrderId = 10327,
+                OrderId = 10319,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -648,7 +584,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/15")
             },
             new Sale {
-                OrderId = 10328,
+                OrderId = 10320,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -656,7 +592,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/01")
             },
             new Sale {
-                OrderId = 10329,
+                OrderId = 10321,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -664,7 +600,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/10")
             },
             new Sale {
-                OrderId = 10330,
+                OrderId = 10322,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -672,23 +608,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/06")
             },
             new Sale {
-                OrderId = 10331,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 1520,
-                Date = DateTime.Parse("2013/04/08")
-            },
-            new Sale {
-                OrderId = 10332,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 8760,
-                Date = DateTime.Parse("2013/04/26")
-            },
-            new Sale {
-                OrderId = 10333,
+                OrderId = 10323,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -696,7 +616,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/16")
             },
             new Sale {
-                OrderId = 10334,
+                OrderId = 10324,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -704,7 +624,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/19")
             },
             new Sale {
-                OrderId = 10335,
+                OrderId = 10325,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -712,7 +632,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/23")
             },
             new Sale {
-                OrderId = 10336,
+                OrderId = 10326,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -720,7 +640,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/21")
             },
             new Sale {
-                OrderId = 10337,
+                OrderId = 10327,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -728,7 +648,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/03")
             },
             new Sale {
-                OrderId = 10338,
+                OrderId = 10328,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -736,7 +656,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/24")
             },
             new Sale {
-                OrderId = 10339,
+                OrderId = 10329,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -744,7 +664,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/01")
             },
             new Sale {
-                OrderId = 10340,
+                OrderId = 10330,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -752,7 +672,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/01")
             },
             new Sale {
-                OrderId = 10341,
+                OrderId = 10331,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -760,7 +680,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/04")
             },
             new Sale {
-                OrderId = 10342,
+                OrderId = 10332,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -768,7 +688,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/02")
             },
             new Sale {
-                OrderId = 10343,
+                OrderId = 10333,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -776,7 +696,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/04/20")
             },
             new Sale {
-                OrderId = 10344,
+                OrderId = 10334,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -784,7 +704,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/14")
             },
             new Sale {
-                OrderId = 10345,
+                OrderId = 10335,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -792,7 +712,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/24")
             },
             new Sale {
-                OrderId = 10346,
+                OrderId = 10336,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -800,7 +720,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/07")
             },
             new Sale {
-                OrderId = 10347,
+                OrderId = 10337,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -808,7 +728,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/20")
             },
             new Sale {
-                OrderId = 10348,
+                OrderId = 10338,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -816,7 +736,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/18")
             },
             new Sale {
-                OrderId = 10349,
+                OrderId = 10339,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -824,7 +744,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/19")
             },
             new Sale {
-                OrderId = 10350,
+                OrderId = 10340,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -832,7 +752,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/23")
             },
             new Sale {
-                OrderId = 10351,
+                OrderId = 10341,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -840,7 +760,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/08")
             },
             new Sale {
-                OrderId = 10352,
+                OrderId = 10342,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -848,7 +768,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/25")
             },
             new Sale {
-                OrderId = 10353,
+                OrderId = 10343,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -856,7 +776,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/03")
             },
             new Sale {
-                OrderId = 10354,
+                OrderId = 10344,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -864,23 +784,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/25")
             },
             new Sale {
-                OrderId = 10355,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 4700,
-                Date = DateTime.Parse("2013/05/03")
-            },
-            new Sale {
-                OrderId = 10356,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 5520,
-                Date = DateTime.Parse("2013/05/12")
-            },
-            new Sale {
-                OrderId = 10357,
+                OrderId = 10345,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -888,7 +792,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/22")
             },
             new Sale {
-                OrderId = 10358,
+                OrderId = 10346,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -896,7 +800,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/12")
             },
             new Sale {
-                OrderId = 10359,
+                OrderId = 10347,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -904,7 +808,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/24")
             },
             new Sale {
-                OrderId = 10360,
+                OrderId = 10348,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -912,7 +816,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/02")
             },
             new Sale {
-                OrderId = 10361,
+                OrderId = 10349,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -920,7 +824,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/03")
             },
             new Sale {
-                OrderId = 10362,
+                OrderId = 10350,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -928,7 +832,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/05/11")
             },
             new Sale {
-                OrderId = 10363,
+                OrderId = 10351,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -936,7 +840,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/15")
             },
             new Sale {
-                OrderId = 10364,
+                OrderId = 10352,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -944,7 +848,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/08")
             },
             new Sale {
-                OrderId = 10365,
+                OrderId = 10353,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -952,7 +856,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/10")
             },
             new Sale {
-                OrderId = 10366,
+                OrderId = 10354,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -960,7 +864,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/10")
             },
             new Sale {
-                OrderId = 10367,
+                OrderId = 10355,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -968,7 +872,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/22")
             },
             new Sale {
-                OrderId = 10368,
+                OrderId = 10356,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -976,7 +880,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/24")
             },
             new Sale {
-                OrderId = 10369,
+                OrderId = 10357,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -984,7 +888,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/10")
             },
             new Sale {
-                OrderId = 10370,
+                OrderId = 10358,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -992,7 +896,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/23")
             },
             new Sale {
-                OrderId = 10371,
+                OrderId = 10359,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -1000,7 +904,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/06")
             },
             new Sale {
-                OrderId = 10372,
+                OrderId = 10360,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -1008,7 +912,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/12")
             },
             new Sale {
-                OrderId = 10373,
+                OrderId = 10361,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -1016,23 +920,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/22")
             },
             new Sale {
-                OrderId = 10374,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 5100,
-                Date = DateTime.Parse("2013/06/01")
-            },
-            new Sale {
-                OrderId = 10375,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 1500,
-                Date = DateTime.Parse("2013/06/25")
-            },
-            new Sale {
-                OrderId = 10376,
+                OrderId = 10362,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -1040,7 +928,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/10")
             },
             new Sale {
-                OrderId = 10377,
+                OrderId = 10363,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -1048,7 +936,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/10")
             },
             new Sale {
-                OrderId = 10378,
+                OrderId = 10364,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -1056,7 +944,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/06")
             },
             new Sale {
-                OrderId = 10379,
+                OrderId = 10365,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -1064,7 +952,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/10")
             },
             new Sale {
-                OrderId = 10380,
+                OrderId = 10366,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -1072,7 +960,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/02")
             },
             new Sale {
-                OrderId = 10381,
+                OrderId = 10367,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -1080,15 +968,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/26")
             },
             new Sale {
-                OrderId = 10382,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 4280,
-                Date = DateTime.Parse("2013/06/19")
-            },
-            new Sale {
-                OrderId = 10383,
+                OrderId = 10368,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -1096,7 +976,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/17")
             },
             new Sale {
-                OrderId = 10384,
+                OrderId = 10369,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -1104,7 +984,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/17")
             },
             new Sale {
-                OrderId = 10385,
+                OrderId = 10370,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -1112,7 +992,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/03")
             },
             new Sale {
-                OrderId = 10386,
+                OrderId = 10371,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -1120,7 +1000,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/06/21")
             },
             new Sale {
-                OrderId = 10387,
+                OrderId = 10372,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -1128,7 +1008,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/14")
             },
             new Sale {
-                OrderId = 10388,
+                OrderId = 10373,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -1136,7 +1016,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/11")
             },
             new Sale {
-                OrderId = 10389,
+                OrderId = 10374,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -1144,7 +1024,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/02")
             },
             new Sale {
-                OrderId = 10390,
+                OrderId = 10375,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -1152,7 +1032,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/03")
             },
             new Sale {
-                OrderId = 10391,
+                OrderId = 10376,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -1160,7 +1040,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/07")
             },
             new Sale {
-                OrderId = 10392,
+                OrderId = 10377,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -1168,7 +1048,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/03")
             },
             new Sale {
-                OrderId = 10393,
+                OrderId = 10378,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -1176,7 +1056,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/21")
             },
             new Sale {
-                OrderId = 10394,
+                OrderId = 10379,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -1184,7 +1064,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/18")
             },
             new Sale {
-                OrderId = 10395,
+                OrderId = 10380,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -1192,7 +1072,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/04")
             },
             new Sale {
-                OrderId = 10396,
+                OrderId = 10381,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -1200,7 +1080,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/23")
             },
             new Sale {
-                OrderId = 10397,
+                OrderId = 10382,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -1208,23 +1088,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/01")
             },
             new Sale {
-                OrderId = 10398,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 2400,
-                Date = DateTime.Parse("2013/07/11")
-            },
-            new Sale {
-                OrderId = 10399,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 3330,
-                Date = DateTime.Parse("2013/07/04")
-            },
-            new Sale {
-                OrderId = 10400,
+                OrderId = 10383,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -1232,7 +1096,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/23")
             },
             new Sale {
-                OrderId = 10401,
+                OrderId = 10384,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -1240,7 +1104,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/11")
             },
             new Sale {
-                OrderId = 10402,
+                OrderId = 10385,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -1248,7 +1112,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/19")
             },
             new Sale {
-                OrderId = 10403,
+                OrderId = 10386,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -1256,7 +1120,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/04")
             },
             new Sale {
-                OrderId = 10404,
+                OrderId = 10387,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -1264,7 +1128,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/16")
             },
             new Sale {
-                OrderId = 10405,
+                OrderId = 10388,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -1272,7 +1136,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/02")
             },
             new Sale {
-                OrderId = 10406,
+                OrderId = 10389,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -1280,7 +1144,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/07/26")
             },
             new Sale {
-                OrderId = 10407,
+                OrderId = 10390,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -1288,7 +1152,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/08")
             },
             new Sale {
-                OrderId = 10408,
+                OrderId = 10391,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -1296,7 +1160,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/01")
             },
             new Sale {
-                OrderId = 10409,
+                OrderId = 10392,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -1304,7 +1168,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/02")
             },
             new Sale {
-                OrderId = 10410,
+                OrderId = 10393,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -1312,7 +1176,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/14")
             },
             new Sale {
-                OrderId = 10411,
+                OrderId = 10394,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -1320,7 +1184,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/05")
             },
             new Sale {
-                OrderId = 10412,
+                OrderId = 10395,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -1328,7 +1192,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/09")
             },
             new Sale {
-                OrderId = 10413,
+                OrderId = 10396,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -1336,7 +1200,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/15")
             },
             new Sale {
-                OrderId = 10414,
+                OrderId = 10397,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -1344,7 +1208,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/20")
             },
             new Sale {
-                OrderId = 10415,
+                OrderId = 10398,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -1352,7 +1216,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/22")
             },
             new Sale {
-                OrderId = 10416,
+                OrderId = 10399,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -1360,7 +1224,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/14")
             },
             new Sale {
-                OrderId = 10417,
+                OrderId = 10400,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -1368,23 +1232,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/24")
             },
             new Sale {
-                OrderId = 10418,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 5200,
-                Date = DateTime.Parse("2013/08/21")
-            },
-            new Sale {
-                OrderId = 10419,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 7920,
-                Date = DateTime.Parse("2013/08/17")
-            },
-            new Sale {
-                OrderId = 10420,
+                OrderId = 10401,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -1392,7 +1240,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/22")
             },
             new Sale {
-                OrderId = 10421,
+                OrderId = 10402,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -1400,7 +1248,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/05")
             },
             new Sale {
-                OrderId = 10422,
+                OrderId = 10403,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -1408,7 +1256,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/16")
             },
             new Sale {
-                OrderId = 10423,
+                OrderId = 10404,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -1416,7 +1264,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/23")
             },
             new Sale {
-                OrderId = 10424,
+                OrderId = 10405,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -1424,7 +1272,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/12")
             },
             new Sale {
-                OrderId = 10425,
+                OrderId = 10406,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -1432,7 +1280,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/25")
             },
             new Sale {
-                OrderId = 10426,
+                OrderId = 10407,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -1440,7 +1288,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/20")
             },
             new Sale {
-                OrderId = 10427,
+                OrderId = 10408,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -1448,7 +1296,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/04")
             },
             new Sale {
-                OrderId = 10428,
+                OrderId = 10409,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -1456,7 +1304,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/19")
             },
             new Sale {
-                OrderId = 10429,
+                OrderId = 10410,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -1464,7 +1312,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/02")
             },
             new Sale {
-                OrderId = 10430,
+                OrderId = 10411,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -1472,7 +1320,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/19")
             },
             new Sale {
-                OrderId = 10431,
+                OrderId = 10412,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -1480,7 +1328,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/08/24")
             },
             new Sale {
-                OrderId = 10432,
+                OrderId = 10413,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -1488,7 +1336,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/12")
             },
             new Sale {
-                OrderId = 10433,
+                OrderId = 10414,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -1496,7 +1344,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/07")
             },
             new Sale {
-                OrderId = 10434,
+                OrderId = 10415,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -1504,7 +1352,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/14")
             },
             new Sale {
-                OrderId = 10435,
+                OrderId = 10416,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -1512,7 +1360,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/08")
             },
             new Sale {
-                OrderId = 10436,
+                OrderId = 10417,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -1520,7 +1368,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/12")
             },
             new Sale {
-                OrderId = 10437,
+                OrderId = 10418,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -1528,7 +1376,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/08")
             },
             new Sale {
-                OrderId = 10438,
+                OrderId = 10419,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -1536,7 +1384,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/19")
             },
             new Sale {
-                OrderId = 10439,
+                OrderId = 10420,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -1544,7 +1392,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/09")
             },
             new Sale {
-                OrderId = 10440,
+                OrderId = 10421,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -1552,7 +1400,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/23")
             },
             new Sale {
-                OrderId = 10441,
+                OrderId = 10422,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -1560,7 +1408,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/06")
             },
             new Sale {
-                OrderId = 10442,
+                OrderId = 10423,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -1568,23 +1416,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/04")
             },
             new Sale {
-                OrderId = 10443,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 4320,
-                Date = DateTime.Parse("2013/09/25")
-            },
-            new Sale {
-                OrderId = 10444,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 7530,
-                Date = DateTime.Parse("2013/09/13")
-            },
-            new Sale {
-                OrderId = 10445,
+                OrderId = 10424,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -1592,7 +1424,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/08")
             },
             new Sale {
-                OrderId = 10446,
+                OrderId = 10425,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -1600,7 +1432,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/04")
             },
             new Sale {
-                OrderId = 10447,
+                OrderId = 10426,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -1608,7 +1440,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/25")
             },
             new Sale {
-                OrderId = 10448,
+                OrderId = 10427,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -1616,7 +1448,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/13")
             },
             new Sale {
-                OrderId = 10449,
+                OrderId = 10428,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -1624,7 +1456,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/24")
             },
             new Sale {
-                OrderId = 10450,
+                OrderId = 10429,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -1632,7 +1464,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/19")
             },
             new Sale {
-                OrderId = 10451,
+                OrderId = 10430,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -1640,7 +1472,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/09/02")
             },
             new Sale {
-                OrderId = 10452,
+                OrderId = 10431,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -1648,7 +1480,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/11")
             },
             new Sale {
-                OrderId = 10453,
+                OrderId = 10432,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -1656,7 +1488,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/02")
             },
             new Sale {
-                OrderId = 10454,
+                OrderId = 10433,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -1664,7 +1496,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/24")
             },
             new Sale {
-                OrderId = 10455,
+                OrderId = 10434,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -1672,7 +1504,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/15")
             },
             new Sale {
-                OrderId = 10456,
+                OrderId = 10435,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -1680,7 +1512,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/15")
             },
             new Sale {
-                OrderId = 10457,
+                OrderId = 10436,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -1688,7 +1520,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/18")
             },
             new Sale {
-                OrderId = 10458,
+                OrderId = 10437,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -1696,7 +1528,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/24")
             },
             new Sale {
-                OrderId = 10459,
+                OrderId = 10438,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -1704,7 +1536,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/18")
             },
             new Sale {
-                OrderId = 10460,
+                OrderId = 10439,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -1712,7 +1544,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/24")
             },
             new Sale {
-                OrderId = 10461,
+                OrderId = 10440,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -1720,7 +1552,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/11")
             },
             new Sale {
-                OrderId = 10462,
+                OrderId = 10441,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -1728,23 +1560,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/25")
             },
             new Sale {
-                OrderId = 10463,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 3480,
-                Date = DateTime.Parse("2013/10/08")
-            },
-            new Sale {
-                OrderId = 10464,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 4830,
-                Date = DateTime.Parse("2013/10/26")
-            },
-            new Sale {
-                OrderId = 10465,
+                OrderId = 10442,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -1752,7 +1568,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/05")
             },
             new Sale {
-                OrderId = 10466,
+                OrderId = 10443,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -1760,7 +1576,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/23")
             },
             new Sale {
-                OrderId = 10467,
+                OrderId = 10444,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -1768,7 +1584,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/01")
             },
             new Sale {
-                OrderId = 10468,
+                OrderId = 10445,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -1776,7 +1592,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/26")
             },
             new Sale {
-                OrderId = 10469,
+                OrderId = 10446,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -1784,7 +1600,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/01")
             },
             new Sale {
-                OrderId = 10470,
+                OrderId = 10447,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -1792,7 +1608,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/02")
             },
             new Sale {
-                OrderId = 10471,
+                OrderId = 10448,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -1800,7 +1616,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/10/23")
             },
             new Sale {
-                OrderId = 10472,
+                OrderId = 10449,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -1808,7 +1624,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/03")
             },
             new Sale {
-                OrderId = 10473,
+                OrderId = 10450,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -1816,7 +1632,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/02")
             },
             new Sale {
-                OrderId = 10474,
+                OrderId = 10451,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -1824,7 +1640,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/09")
             },
             new Sale {
-                OrderId = 10475,
+                OrderId = 10452,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -1832,7 +1648,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/15")
             },
             new Sale {
-                OrderId = 10476,
+                OrderId = 10453,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -1840,7 +1656,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/15")
             },
             new Sale {
-                OrderId = 10477,
+                OrderId = 10454,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -1848,7 +1664,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/15")
             },
             new Sale {
-                OrderId = 10478,
+                OrderId = 10455,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -1856,7 +1672,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/25")
             },
             new Sale {
-                OrderId = 10479,
+                OrderId = 10456,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -1864,7 +1680,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/08")
             },
             new Sale {
-                OrderId = 10480,
+                OrderId = 10457,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -1872,7 +1688,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/17")
             },
             new Sale {
-                OrderId = 10481,
+                OrderId = 10458,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -1880,7 +1696,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/15")
             },
             new Sale {
-                OrderId = 10482,
+                OrderId = 10459,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -1888,23 +1704,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/08")
             },
             new Sale {
-                OrderId = 10483,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 5340,
-                Date = DateTime.Parse("2013/11/13")
-            },
-            new Sale {
-                OrderId = 10484,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 8850,
-                Date = DateTime.Parse("2013/11/01")
-            },
-            new Sale {
-                OrderId = 10485,
+                OrderId = 10460,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -1912,7 +1712,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/14")
             },
             new Sale {
-                OrderId = 10486,
+                OrderId = 10461,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -1920,7 +1720,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/18")
             },
             new Sale {
-                OrderId = 10487,
+                OrderId = 10462,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -1928,7 +1728,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/04")
             },
             new Sale {
-                OrderId = 10488,
+                OrderId = 10463,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -1936,7 +1736,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/13")
             },
             new Sale {
-                OrderId = 10489,
+                OrderId = 10464,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -1944,7 +1744,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/11")
             },
             new Sale {
-                OrderId = 10490,
+                OrderId = 10465,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -1952,7 +1752,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/12")
             },
             new Sale {
-                OrderId = 10491,
+                OrderId = 10466,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -1960,7 +1760,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/11/07")
             },
             new Sale {
-                OrderId = 10492,
+                OrderId = 10467,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -1968,7 +1768,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/01")
             },
             new Sale {
-                OrderId = 10493,
+                OrderId = 10468,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -1976,7 +1776,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/19")
             },
             new Sale {
-                OrderId = 10494,
+                OrderId = 10469,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -1984,7 +1784,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/14")
             },
             new Sale {
-                OrderId = 10495,
+                OrderId = 10470,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -1992,7 +1792,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/03")
             },
             new Sale {
-                OrderId = 10496,
+                OrderId = 10471,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -2000,7 +1800,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/20")
             },
             new Sale {
-                OrderId = 10497,
+                OrderId = 10472,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -2008,7 +1808,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/21")
             },
             new Sale {
-                OrderId = 10498,
+                OrderId = 10473,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -2016,7 +1816,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/22")
             },
             new Sale {
-                OrderId = 10499,
+                OrderId = 10474,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -2024,7 +1824,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/04")
             },
             new Sale {
-                OrderId = 10500,
+                OrderId = 10475,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -2032,7 +1832,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/19")
             },
             new Sale {
-                OrderId = 10501,
+                OrderId = 10476,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -2040,7 +1840,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/22")
             },
             new Sale {
-                OrderId = 10502,
+                OrderId = 10477,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -2048,23 +1848,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/20")
             },
             new Sale {
-                OrderId = 10503,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 5520,
-                Date = DateTime.Parse("2013/12/25")
-            },
-            new Sale {
-                OrderId = 10504,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 9210,
-                Date = DateTime.Parse("2013/12/24")
-            },
-            new Sale {
-                OrderId = 10505,
+                OrderId = 10478,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -2072,7 +1856,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/05")
             },
             new Sale {
-                OrderId = 10506,
+                OrderId = 10479,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -2080,7 +1864,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/22")
             },
             new Sale {
-                OrderId = 10507,
+                OrderId = 10480,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -2088,7 +1872,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/12")
             },
             new Sale {
-                OrderId = 10508,
+                OrderId = 10481,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -2096,7 +1880,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/13")
             },
             new Sale {
-                OrderId = 10509,
+                OrderId = 10482,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -2104,7 +1888,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/17")
             },
             new Sale {
-                OrderId = 10510,
+                OrderId = 10483,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -2112,7 +1896,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/07")
             },
             new Sale {
-                OrderId = 10511,
+                OrderId = 10484,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -2120,7 +1904,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/18")
             },
             new Sale {
-                OrderId = 10512,
+                OrderId = 10485,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -2128,7 +1912,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/23")
             },
             new Sale {
-                OrderId = 10513,
+                OrderId = 10486,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -2136,7 +1920,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/06")
             },
             new Sale {
-                OrderId = 10514,
+                OrderId = 10487,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -2144,7 +1928,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/04")
             },
             new Sale {
-                OrderId = 10515,
+                OrderId = 10488,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -2152,15 +1936,7 @@ static class SampleData
                 Date = DateTime.Parse("2013/12/01")
             },
             new Sale {
-                OrderId = 10516,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 2250,
-                Date = DateTime.Parse("2013/12/02")
-            },
-            new Sale {
-                OrderId = 10517,
+                OrderId = 10489,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -2168,7 +1944,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/18")
             },
             new Sale {
-                OrderId = 10518,
+                OrderId = 10490,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -2176,7 +1952,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/10")
             },
             new Sale {
-                OrderId = 10519,
+                OrderId = 10491,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -2184,7 +1960,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/13")
             },
             new Sale {
-                OrderId = 10520,
+                OrderId = 10492,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -2192,7 +1968,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/22")
             },
             new Sale {
-                OrderId = 10521,
+                OrderId = 10493,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -2200,7 +1976,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/26")
             },
             new Sale {
-                OrderId = 10522,
+                OrderId = 10494,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -2208,7 +1984,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/25")
             },
             new Sale {
-                OrderId = 10523,
+                OrderId = 10495,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -2216,7 +1992,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/21")
             },
             new Sale {
-                OrderId = 10524,
+                OrderId = 10496,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -2224,7 +2000,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/22")
             },
             new Sale {
-                OrderId = 10525,
+                OrderId = 10497,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -2232,7 +2008,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/14")
             },
             new Sale {
-                OrderId = 10526,
+                OrderId = 10498,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -2240,7 +2016,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/21")
             },
             new Sale {
-                OrderId = 10527,
+                OrderId = 10499,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -2248,23 +2024,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/25")
             },
             new Sale {
-                OrderId = 10528,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 5320,
-                Date = DateTime.Parse("2014/01/08")
-            },
-            new Sale {
-                OrderId = 10529,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 4050,
-                Date = DateTime.Parse("2014/01/14")
-            },
-            new Sale {
-                OrderId = 10530,
+                OrderId = 10500,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -2272,7 +2032,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/24")
             },
             new Sale {
-                OrderId = 10531,
+                OrderId = 10501,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -2280,7 +2040,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/11")
             },
             new Sale {
-                OrderId = 10532,
+                OrderId = 10502,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -2288,7 +2048,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/12")
             },
             new Sale {
-                OrderId = 10533,
+                OrderId = 10503,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -2296,7 +2056,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/16")
             },
             new Sale {
-                OrderId = 10534,
+                OrderId = 10504,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -2304,7 +2064,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/05")
             },
             new Sale {
-                OrderId = 10535,
+                OrderId = 10505,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -2312,7 +2072,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/01/15")
             },
             new Sale {
-                OrderId = 10536,
+                OrderId = 10506,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -2320,7 +2080,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/18")
             },
             new Sale {
-                OrderId = 10537,
+                OrderId = 10507,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -2328,7 +2088,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/21")
             },
             new Sale {
-                OrderId = 10538,
+                OrderId = 10508,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -2336,7 +2096,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/18")
             },
             new Sale {
-                OrderId = 10539,
+                OrderId = 10509,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -2344,7 +2104,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/04")
             },
             new Sale {
-                OrderId = 10540,
+                OrderId = 10510,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -2352,7 +2112,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/25")
             },
             new Sale {
-                OrderId = 10541,
+                OrderId = 10511,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -2360,7 +2120,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/01")
             },
             new Sale {
-                OrderId = 10542,
+                OrderId = 10512,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -2368,7 +2128,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/20")
             },
             new Sale {
-                OrderId = 10543,
+                OrderId = 10513,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -2376,7 +2136,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/12")
             },
             new Sale {
-                OrderId = 10544,
+                OrderId = 10514,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -2384,7 +2144,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/10")
             },
             new Sale {
-                OrderId = 10545,
+                OrderId = 10515,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -2392,7 +2152,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/06")
             },
             new Sale {
-                OrderId = 10546,
+                OrderId = 10516,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -2400,23 +2160,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/18")
             },
             new Sale {
-                OrderId = 10547,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 1780,
-                Date = DateTime.Parse("2014/02/26")
-            },
-            new Sale {
-                OrderId = 10548,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 8700,
-                Date = DateTime.Parse("2014/02/03")
-            },
-            new Sale {
-                OrderId = 10549,
+                OrderId = 10517,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -2424,7 +2168,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/03")
             },
             new Sale {
-                OrderId = 10550,
+                OrderId = 10518,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -2432,7 +2176,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/15")
             },
             new Sale {
-                OrderId = 10551,
+                OrderId = 10519,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -2440,7 +2184,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/23")
             },
             new Sale {
-                OrderId = 10552,
+                OrderId = 10520,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -2448,7 +2192,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/08")
             },
             new Sale {
-                OrderId = 10553,
+                OrderId = 10521,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -2456,7 +2200,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/13")
             },
             new Sale {
-                OrderId = 10554,
+                OrderId = 10522,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -2464,7 +2208,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/20")
             },
             new Sale {
-                OrderId = 10555,
+                OrderId = 10523,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -2472,7 +2216,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/26")
             },
             new Sale {
-                OrderId = 10556,
+                OrderId = 10524,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -2480,7 +2224,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/02/12")
             },
             new Sale {
-                OrderId = 10557,
+                OrderId = 10525,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -2488,7 +2232,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/09")
             },
             new Sale {
-                OrderId = 10558,
+                OrderId = 10526,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -2496,7 +2240,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/25")
             },
             new Sale {
-                OrderId = 10559,
+                OrderId = 10527,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -2504,7 +2248,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/23")
             },
             new Sale {
-                OrderId = 10560,
+                OrderId = 10528,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -2512,7 +2256,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/01")
             },
             new Sale {
-                OrderId = 10561,
+                OrderId = 10529,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -2520,7 +2264,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/19")
             },
             new Sale {
-                OrderId = 10562,
+                OrderId = 10530,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -2528,7 +2272,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/19")
             },
             new Sale {
-                OrderId = 10563,
+                OrderId = 10531,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -2536,7 +2280,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/02")
             },
             new Sale {
-                OrderId = 10564,
+                OrderId = 10532,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -2544,7 +2288,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/15")
             },
             new Sale {
-                OrderId = 10565,
+                OrderId = 10533,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -2552,7 +2296,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/09")
             },
             new Sale {
-                OrderId = 10566,
+                OrderId = 10534,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -2560,7 +2304,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/23")
             },
             new Sale {
-                OrderId = 10567,
+                OrderId = 10535,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -2568,23 +2312,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/11")
             },
             new Sale {
-                OrderId = 10568,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 5140,
-                Date = DateTime.Parse("2014/03/05")
-            },
-            new Sale {
-                OrderId = 10569,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 6210,
-                Date = DateTime.Parse("2014/03/19")
-            },
-            new Sale {
-                OrderId = 10570,
+                OrderId = 10536,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -2592,7 +2320,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/19")
             },
             new Sale {
-                OrderId = 10571,
+                OrderId = 10537,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -2600,7 +2328,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/21")
             },
             new Sale {
-                OrderId = 10572,
+                OrderId = 10538,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -2608,7 +2336,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/15")
             },
             new Sale {
-                OrderId = 10573,
+                OrderId = 10539,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -2616,7 +2344,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/05")
             },
             new Sale {
-                OrderId = 10574,
+                OrderId = 10540,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -2624,7 +2352,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/07")
             },
             new Sale {
-                OrderId = 10575,
+                OrderId = 10541,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -2632,7 +2360,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/21")
             },
             new Sale {
-                OrderId = 10576,
+                OrderId = 10542,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -2640,7 +2368,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/08")
             },
             new Sale {
-                OrderId = 10577,
+                OrderId = 10543,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -2648,7 +2376,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/03/03")
             },
             new Sale {
-                OrderId = 10578,
+                OrderId = 10544,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -2656,7 +2384,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/11")
             },
             new Sale {
-                OrderId = 10579,
+                OrderId = 10545,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -2664,7 +2392,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/13")
             },
             new Sale {
-                OrderId = 10580,
+                OrderId = 10546,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -2672,7 +2400,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/22")
             },
             new Sale {
-                OrderId = 10581,
+                OrderId = 10547,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -2680,7 +2408,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/08")
             },
             new Sale {
-                OrderId = 10582,
+                OrderId = 10548,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -2688,7 +2416,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/07")
             },
             new Sale {
-                OrderId = 10583,
+                OrderId = 10549,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -2696,7 +2424,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/01")
             },
             new Sale {
-                OrderId = 10584,
+                OrderId = 10550,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -2704,7 +2432,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/10")
             },
             new Sale {
-                OrderId = 10585,
+                OrderId = 10551,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -2712,7 +2440,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/21")
             },
             new Sale {
-                OrderId = 10586,
+                OrderId = 10552,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -2720,7 +2448,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/02")
             },
             new Sale {
-                OrderId = 10587,
+                OrderId = 10553,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -2728,7 +2456,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/07")
             },
             new Sale {
-                OrderId = 10588,
+                OrderId = 10554,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -2736,23 +2464,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/22")
             },
             new Sale {
-                OrderId = 10589,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 1960,
-                Date = DateTime.Parse("2014/04/16")
-            },
-            new Sale {
-                OrderId = 10590,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 2250,
-                Date = DateTime.Parse("2014/04/23")
-            },
-            new Sale {
-                OrderId = 10591,
+                OrderId = 10555,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -2760,7 +2472,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/05")
             },
             new Sale {
-                OrderId = 10592,
+                OrderId = 10556,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -2768,7 +2480,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/11")
             },
             new Sale {
-                OrderId = 10593,
+                OrderId = 10557,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -2776,7 +2488,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/02")
             },
             new Sale {
-                OrderId = 10594,
+                OrderId = 10558,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -2784,7 +2496,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/14")
             },
             new Sale {
-                OrderId = 10595,
+                OrderId = 10559,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -2792,7 +2504,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/19")
             },
             new Sale {
-                OrderId = 10596,
+                OrderId = 10560,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -2800,7 +2512,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/02")
             },
             new Sale {
-                OrderId = 10597,
+                OrderId = 10561,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -2808,7 +2520,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/01")
             },
             new Sale {
-                OrderId = 10598,
+                OrderId = 10562,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -2816,15 +2528,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/04")
             },
             new Sale {
-                OrderId = 10599,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 3200,
-                Date = DateTime.Parse("2014/04/08")
-            },
-            new Sale {
-                OrderId = 10600,
+                OrderId = 10563,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -2832,7 +2536,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/21")
             },
             new Sale {
-                OrderId = 10601,
+                OrderId = 10564,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -2840,7 +2544,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/04/06")
             },
             new Sale {
-                OrderId = 10602,
+                OrderId = 10565,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -2848,7 +2552,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/19")
             },
             new Sale {
-                OrderId = 10603,
+                OrderId = 10566,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -2856,7 +2560,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/15")
             },
             new Sale {
-                OrderId = 10604,
+                OrderId = 10567,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -2864,7 +2568,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/10")
             },
             new Sale {
-                OrderId = 10605,
+                OrderId = 10568,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -2872,7 +2576,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/18")
             },
             new Sale {
-                OrderId = 10606,
+                OrderId = 10569,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -2880,7 +2584,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/08")
             },
             new Sale {
-                OrderId = 10607,
+                OrderId = 10570,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -2888,7 +2592,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/20")
             },
             new Sale {
-                OrderId = 10608,
+                OrderId = 10571,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -2896,7 +2600,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/16")
             },
             new Sale {
-                OrderId = 10609,
+                OrderId = 10572,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -2904,7 +2608,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/10")
             },
             new Sale {
-                OrderId = 10610,
+                OrderId = 10573,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -2912,7 +2616,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/14")
             },
             new Sale {
-                OrderId = 10611,
+                OrderId = 10574,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -2920,7 +2624,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/22")
             },
             new Sale {
-                OrderId = 10612,
+                OrderId = 10575,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -2928,23 +2632,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/08")
             },
             new Sale {
-                OrderId = 10613,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 3760,
-                Date = DateTime.Parse("2014/05/18")
-            },
-            new Sale {
-                OrderId = 10614,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 7920,
-                Date = DateTime.Parse("2014/05/22")
-            },
-            new Sale {
-                OrderId = 10615,
+                OrderId = 10576,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -2952,7 +2640,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/21")
             },
             new Sale {
-                OrderId = 10616,
+                OrderId = 10577,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -2960,7 +2648,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/25")
             },
             new Sale {
-                OrderId = 10617,
+                OrderId = 10578,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -2968,7 +2656,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/05")
             },
             new Sale {
-                OrderId = 10618,
+                OrderId = 10579,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -2976,7 +2664,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/24")
             },
             new Sale {
-                OrderId = 10619,
+                OrderId = 10580,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -2984,7 +2672,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/06")
             },
             new Sale {
-                OrderId = 10620,
+                OrderId = 10581,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -2992,15 +2680,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/05/14")
             },
             new Sale {
-                OrderId = 10621,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 8370,
-                Date = DateTime.Parse("2014/05/06")
-            },
-            new Sale {
-                OrderId = 10622,
+                OrderId = 10582,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -3008,7 +2688,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/26")
             },
             new Sale {
-                OrderId = 10623,
+                OrderId = 10583,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -3016,7 +2696,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/04")
             },
             new Sale {
-                OrderId = 10624,
+                OrderId = 10584,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -3024,7 +2704,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/20")
             },
             new Sale {
-                OrderId = 10625,
+                OrderId = 10585,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -3032,7 +2712,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/23")
             },
             new Sale {
-                OrderId = 10626,
+                OrderId = 10586,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -3040,7 +2720,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/13")
             },
             new Sale {
-                OrderId = 10627,
+                OrderId = 10587,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -3048,7 +2728,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/08")
             },
             new Sale {
-                OrderId = 10628,
+                OrderId = 10588,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -3056,7 +2736,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/25")
             },
             new Sale {
-                OrderId = 10629,
+                OrderId = 10589,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -3064,7 +2744,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/20")
             },
             new Sale {
-                OrderId = 10630,
+                OrderId = 10590,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -3072,7 +2752,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/25")
             },
             new Sale {
-                OrderId = 10631,
+                OrderId = 10591,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -3080,7 +2760,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/26")
             },
             new Sale {
-                OrderId = 10632,
+                OrderId = 10592,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -3088,23 +2768,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/08")
             },
             new Sale {
-                OrderId = 10633,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 1720,
-                Date = DateTime.Parse("2014/06/09")
-            },
-            new Sale {
-                OrderId = 10634,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 2880,
-                Date = DateTime.Parse("2014/06/21")
-            },
-            new Sale {
-                OrderId = 10635,
+                OrderId = 10593,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -3112,7 +2776,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/03")
             },
             new Sale {
-                OrderId = 10636,
+                OrderId = 10594,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -3120,7 +2784,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/19")
             },
             new Sale {
-                OrderId = 10637,
+                OrderId = 10595,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -3128,7 +2792,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/20")
             },
             new Sale {
-                OrderId = 10638,
+                OrderId = 10596,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -3136,7 +2800,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/25")
             },
             new Sale {
-                OrderId = 10639,
+                OrderId = 10597,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -3144,7 +2808,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/02")
             },
             new Sale {
-                OrderId = 10640,
+                OrderId = 10598,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -3152,7 +2816,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/25")
             },
             new Sale {
-                OrderId = 10641,
+                OrderId = 10599,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -3160,7 +2824,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/12")
             },
             new Sale {
-                OrderId = 10642,
+                OrderId = 10600,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -3168,7 +2832,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/02")
             },
             new Sale {
-                OrderId = 10643,
+                OrderId = 10601,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -3176,7 +2840,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/06/23")
             },
             new Sale {
-                OrderId = 10644,
+                OrderId = 10602,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -3184,7 +2848,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/21")
             },
             new Sale {
-                OrderId = 10645,
+                OrderId = 10603,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -3192,7 +2856,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/01")
             },
             new Sale {
-                OrderId = 10646,
+                OrderId = 10604,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -3200,7 +2864,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/26")
             },
             new Sale {
-                OrderId = 10647,
+                OrderId = 10605,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -3208,7 +2872,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/22")
             },
             new Sale {
-                OrderId = 10648,
+                OrderId = 10606,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -3216,7 +2880,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/09")
             },
             new Sale {
-                OrderId = 10649,
+                OrderId = 10607,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -3224,7 +2888,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/08")
             },
             new Sale {
-                OrderId = 10650,
+                OrderId = 10608,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -3232,7 +2896,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/18")
             },
             new Sale {
-                OrderId = 10651,
+                OrderId = 10609,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -3240,7 +2904,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/25")
             },
             new Sale {
-                OrderId = 10652,
+                OrderId = 10610,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -3248,7 +2912,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/04")
             },
             new Sale {
-                OrderId = 10653,
+                OrderId = 10611,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -3256,7 +2920,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/03")
             },
             new Sale {
-                OrderId = 10654,
+                OrderId = 10612,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -3264,23 +2928,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/21")
             },
             new Sale {
-                OrderId = 10655,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 5240,
-                Date = DateTime.Parse("2014/07/11")
-            },
-            new Sale {
-                OrderId = 10656,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 1200,
-                Date = DateTime.Parse("2014/07/21")
-            },
-            new Sale {
-                OrderId = 10657,
+                OrderId = 10613,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -3288,7 +2936,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/18")
             },
             new Sale {
-                OrderId = 10658,
+                OrderId = 10614,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -3296,7 +2944,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/01")
             },
             new Sale {
-                OrderId = 10659,
+                OrderId = 10615,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -3304,7 +2952,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/02")
             },
             new Sale {
-                OrderId = 10660,
+                OrderId = 10616,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -3312,7 +2960,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/09")
             },
             new Sale {
-                OrderId = 10661,
+                OrderId = 10617,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -3320,7 +2968,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/04")
             },
             new Sale {
-                OrderId = 10662,
+                OrderId = 10618,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -3328,15 +2976,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/02")
             },
             new Sale {
-                OrderId = 10663,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 5520,
-                Date = DateTime.Parse("2014/07/21")
-            },
-            new Sale {
-                OrderId = 10664,
+                OrderId = 10619,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -3344,7 +2984,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/25")
             },
             new Sale {
-                OrderId = 10665,
+                OrderId = 10620,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -3352,7 +2992,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/07")
             },
             new Sale {
-                OrderId = 10666,
+                OrderId = 10621,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -3360,15 +3000,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/07/21")
             },
             new Sale {
-                OrderId = 10667,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 3270,
-                Date = DateTime.Parse("2014/07/12")
-            },
-            new Sale {
-                OrderId = 10668,
+                OrderId = 10622,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -3376,7 +3008,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/23")
             },
             new Sale {
-                OrderId = 10669,
+                OrderId = 10623,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -3384,7 +3016,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/09")
             },
             new Sale {
-                OrderId = 10670,
+                OrderId = 10624,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -3392,7 +3024,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/03")
             },
             new Sale {
-                OrderId = 10671,
+                OrderId = 10625,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -3400,7 +3032,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/11")
             },
             new Sale {
-                OrderId = 10672,
+                OrderId = 10626,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -3408,7 +3040,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/01")
             },
             new Sale {
-                OrderId = 10673,
+                OrderId = 10627,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -3416,7 +3048,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/21")
             },
             new Sale {
-                OrderId = 10674,
+                OrderId = 10628,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -3424,7 +3056,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/16")
             },
             new Sale {
-                OrderId = 10675,
+                OrderId = 10629,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -3432,7 +3064,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/20")
             },
             new Sale {
-                OrderId = 10676,
+                OrderId = 10630,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -3440,7 +3072,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/01")
             },
             new Sale {
-                OrderId = 10677,
+                OrderId = 10631,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -3448,7 +3080,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/22")
             },
             new Sale {
-                OrderId = 10678,
+                OrderId = 10632,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -3456,23 +3088,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/13")
             },
             new Sale {
-                OrderId = 10679,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 2320,
-                Date = DateTime.Parse("2014/08/18")
-            },
-            new Sale {
-                OrderId = 10680,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 7590,
-                Date = DateTime.Parse("2014/08/24")
-            },
-            new Sale {
-                OrderId = 10681,
+                OrderId = 10633,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -3480,7 +3096,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/20")
             },
             new Sale {
-                OrderId = 10682,
+                OrderId = 10634,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -3488,7 +3104,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/20")
             },
             new Sale {
-                OrderId = 10683,
+                OrderId = 10635,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -3496,7 +3112,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/25")
             },
             new Sale {
-                OrderId = 10684,
+                OrderId = 10636,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -3504,7 +3120,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/16")
             },
             new Sale {
-                OrderId = 10685,
+                OrderId = 10637,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -3512,7 +3128,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/15")
             },
             new Sale {
-                OrderId = 10686,
+                OrderId = 10638,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -3520,7 +3136,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/09")
             },
             new Sale {
-                OrderId = 10687,
+                OrderId = 10639,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -3528,7 +3144,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/09")
             },
             new Sale {
-                OrderId = 10688,
+                OrderId = 10640,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -3536,7 +3152,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/08/11")
             },
             new Sale {
-                OrderId = 10689,
+                OrderId = 10641,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -3544,7 +3160,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/21")
             },
             new Sale {
-                OrderId = 10690,
+                OrderId = 10642,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -3552,7 +3168,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/02")
             },
             new Sale {
-                OrderId = 10691,
+                OrderId = 10643,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -3560,7 +3176,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/05")
             },
             new Sale {
-                OrderId = 10692,
+                OrderId = 10644,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -3568,7 +3184,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/10")
             },
             new Sale {
-                OrderId = 10693,
+                OrderId = 10645,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -3576,7 +3192,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/01")
             },
             new Sale {
-                OrderId = 10694,
+                OrderId = 10646,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -3584,7 +3200,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/02")
             },
             new Sale {
-                OrderId = 10695,
+                OrderId = 10647,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -3592,7 +3208,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/03")
             },
             new Sale {
-                OrderId = 10696,
+                OrderId = 10648,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -3600,7 +3216,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/04")
             },
             new Sale {
-                OrderId = 10697,
+                OrderId = 10649,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -3608,7 +3224,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/09")
             },
             new Sale {
-                OrderId = 10698,
+                OrderId = 10650,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -3616,7 +3232,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/04")
             },
             new Sale {
-                OrderId = 10699,
+                OrderId = 10651,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -3624,23 +3240,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/16")
             },
             new Sale {
-                OrderId = 10700,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 1320,
-                Date = DateTime.Parse("2014/09/18")
-            },
-            new Sale {
-                OrderId = 10701,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 8610,
-                Date = DateTime.Parse("2014/09/19")
-            },
-            new Sale {
-                OrderId = 10702,
+                OrderId = 10652,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -3648,7 +3248,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/09")
             },
             new Sale {
-                OrderId = 10703,
+                OrderId = 10653,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -3656,7 +3256,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/01")
             },
             new Sale {
-                OrderId = 10704,
+                OrderId = 10654,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -3664,7 +3264,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/19")
             },
             new Sale {
-                OrderId = 10705,
+                OrderId = 10655,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -3672,7 +3272,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/01")
             },
             new Sale {
-                OrderId = 10706,
+                OrderId = 10656,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -3680,7 +3280,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/03")
             },
             new Sale {
-                OrderId = 10707,
+                OrderId = 10657,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -3688,7 +3288,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/10")
             },
             new Sale {
-                OrderId = 10708,
+                OrderId = 10658,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -3696,7 +3296,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/25")
             },
             new Sale {
-                OrderId = 10709,
+                OrderId = 10659,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -3704,7 +3304,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/09/19")
             },
             new Sale {
-                OrderId = 10710,
+                OrderId = 10660,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -3712,7 +3312,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/15")
             },
             new Sale {
-                OrderId = 10711,
+                OrderId = 10661,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -3720,7 +3320,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/22")
             },
             new Sale {
-                OrderId = 10712,
+                OrderId = 10662,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -3728,7 +3328,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/01")
             },
             new Sale {
-                OrderId = 10713,
+                OrderId = 10663,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -3736,7 +3336,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/01")
             },
             new Sale {
-                OrderId = 10714,
+                OrderId = 10664,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -3744,7 +3344,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/23")
             },
             new Sale {
-                OrderId = 10715,
+                OrderId = 10665,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -3752,7 +3352,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/11")
             },
             new Sale {
-                OrderId = 10716,
+                OrderId = 10666,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -3760,7 +3360,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/20")
             },
             new Sale {
-                OrderId = 10717,
+                OrderId = 10667,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -3768,7 +3368,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/05")
             },
             new Sale {
-                OrderId = 10718,
+                OrderId = 10668,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -3776,7 +3376,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/06")
             },
             new Sale {
-                OrderId = 10719,
+                OrderId = 10669,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -3784,7 +3384,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/06")
             },
             new Sale {
-                OrderId = 10720,
+                OrderId = 10670,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -3792,23 +3392,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/18")
             },
             new Sale {
-                OrderId = 10721,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 2940,
-                Date = DateTime.Parse("2014/10/24")
-            },
-            new Sale {
-                OrderId = 10722,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 2670,
-                Date = DateTime.Parse("2014/10/04")
-            },
-            new Sale {
-                OrderId = 10723,
+                OrderId = 10671,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -3816,7 +3400,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/11")
             },
             new Sale {
-                OrderId = 10724,
+                OrderId = 10672,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -3824,7 +3408,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/08")
             },
             new Sale {
-                OrderId = 10725,
+                OrderId = 10673,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -3832,7 +3416,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/08")
             },
             new Sale {
-                OrderId = 10726,
+                OrderId = 10674,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -3840,7 +3424,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/11")
             },
             new Sale {
-                OrderId = 10727,
+                OrderId = 10675,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -3848,7 +3432,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/17")
             },
             new Sale {
-                OrderId = 10728,
+                OrderId = 10676,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -3856,7 +3440,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/05")
             },
             new Sale {
-                OrderId = 10729,
+                OrderId = 10677,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -3864,7 +3448,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/16")
             },
             new Sale {
-                OrderId = 10730,
+                OrderId = 10678,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -3872,7 +3456,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/08")
             },
             new Sale {
-                OrderId = 10731,
+                OrderId = 10679,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -3880,7 +3464,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/10/21")
             },
             new Sale {
-                OrderId = 10732,
+                OrderId = 10680,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -3888,7 +3472,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/09")
             },
             new Sale {
-                OrderId = 10733,
+                OrderId = 10681,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -3896,7 +3480,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/21")
             },
             new Sale {
-                OrderId = 10734,
+                OrderId = 10682,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -3904,7 +3488,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/24")
             },
             new Sale {
-                OrderId = 10735,
+                OrderId = 10683,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -3912,7 +3496,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/24")
             },
             new Sale {
-                OrderId = 10736,
+                OrderId = 10684,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -3920,7 +3504,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/18")
             },
             new Sale {
-                OrderId = 10737,
+                OrderId = 10685,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -3928,7 +3512,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/25")
             },
             new Sale {
-                OrderId = 10738,
+                OrderId = 10686,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -3936,7 +3520,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/09")
             },
             new Sale {
-                OrderId = 10739,
+                OrderId = 10687,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -3944,7 +3528,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/23")
             },
             new Sale {
-                OrderId = 10740,
+                OrderId = 10688,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -3952,7 +3536,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/20")
             },
             new Sale {
-                OrderId = 10741,
+                OrderId = 10689,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -3960,7 +3544,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/25")
             },
             new Sale {
-                OrderId = 10742,
+                OrderId = 10690,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -3968,23 +3552,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/15")
             },
             new Sale {
-                OrderId = 10743,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 2820,
-                Date = DateTime.Parse("2014/11/13")
-            },
-            new Sale {
-                OrderId = 10744,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 2280,
-                Date = DateTime.Parse("2014/11/12")
-            },
-            new Sale {
-                OrderId = 10745,
+                OrderId = 10691,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -3992,7 +3560,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/03")
             },
             new Sale {
-                OrderId = 10746,
+                OrderId = 10692,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -4000,7 +3568,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/23")
             },
             new Sale {
-                OrderId = 10747,
+                OrderId = 10693,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -4008,7 +3576,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/20")
             },
             new Sale {
-                OrderId = 10748,
+                OrderId = 10694,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -4016,7 +3584,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/24")
             },
             new Sale {
-                OrderId = 10749,
+                OrderId = 10695,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -4024,7 +3592,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/24")
             },
             new Sale {
-                OrderId = 10750,
+                OrderId = 10696,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -4032,7 +3600,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/16")
             },
             new Sale {
-                OrderId = 10751,
+                OrderId = 10697,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -4040,7 +3608,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/05")
             },
             new Sale {
-                OrderId = 10752,
+                OrderId = 10698,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -4048,7 +3616,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/07")
             },
             new Sale {
-                OrderId = 10753,
+                OrderId = 10699,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -4056,7 +3624,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/20")
             },
             new Sale {
-                OrderId = 10754,
+                OrderId = 10700,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -4064,7 +3632,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/11/02")
             },
             new Sale {
-                OrderId = 10755,
+                OrderId = 10701,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -4072,7 +3640,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/04")
             },
             new Sale {
-                OrderId = 10756,
+                OrderId = 10702,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -4080,7 +3648,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/02")
             },
             new Sale {
-                OrderId = 10757,
+                OrderId = 10703,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -4088,7 +3656,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/07")
             },
             new Sale {
-                OrderId = 10758,
+                OrderId = 10704,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -4096,7 +3664,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/15")
             },
             new Sale {
-                OrderId = 10759,
+                OrderId = 10705,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -4104,7 +3672,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/01")
             },
             new Sale {
-                OrderId = 10760,
+                OrderId = 10706,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -4112,7 +3680,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/18")
             },
             new Sale {
-                OrderId = 10761,
+                OrderId = 10707,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -4120,7 +3688,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/22")
             },
             new Sale {
-                OrderId = 10762,
+                OrderId = 10708,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -4128,7 +3696,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/12")
             },
             new Sale {
-                OrderId = 10763,
+                OrderId = 10709,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -4136,7 +3704,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/06")
             },
             new Sale {
-                OrderId = 10764,
+                OrderId = 10710,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -4144,7 +3712,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/20")
             },
             new Sale {
-                OrderId = 10765,
+                OrderId = 10711,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -4152,23 +3720,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/10")
             },
             new Sale {
-                OrderId = 10766,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 4880,
-                Date = DateTime.Parse("2014/12/13")
-            },
-            new Sale {
-                OrderId = 10767,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 8850,
-                Date = DateTime.Parse("2014/12/03")
-            },
-            new Sale {
-                OrderId = 10768,
+                OrderId = 10712,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -4176,7 +3728,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/10")
             },
             new Sale {
-                OrderId = 10769,
+                OrderId = 10713,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -4184,7 +3736,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/12")
             },
             new Sale {
-                OrderId = 10770,
+                OrderId = 10714,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -4192,7 +3744,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/02")
             },
             new Sale {
-                OrderId = 10771,
+                OrderId = 10715,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -4200,7 +3752,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/12")
             },
             new Sale {
-                OrderId = 10772,
+                OrderId = 10716,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -4208,7 +3760,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/01")
             },
             new Sale {
-                OrderId = 10773,
+                OrderId = 10717,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -4216,7 +3768,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/26")
             },
             new Sale {
-                OrderId = 10774,
+                OrderId = 10718,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -4224,7 +3776,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/17")
             },
             new Sale {
-                OrderId = 10775,
+                OrderId = 10719,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -4232,7 +3784,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/15")
             },
             new Sale {
-                OrderId = 10776,
+                OrderId = 10720,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -4240,7 +3792,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/18")
             },
             new Sale {
-                OrderId = 10777,
+                OrderId = 10721,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -4248,7 +3800,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/02")
             },
             new Sale {
-                OrderId = 10778,
+                OrderId = 10722,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -4256,7 +3808,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/13")
             },
             new Sale {
-                OrderId = 10779,
+                OrderId = 10723,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -4264,7 +3816,7 @@ static class SampleData
                 Date = DateTime.Parse("2014/12/05")
             },
             new Sale {
-                OrderId = 10780,
+                OrderId = 10724,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -4272,7 +3824,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/10")
             },
             new Sale {
-                OrderId = 10781,
+                OrderId = 10725,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -4280,7 +3832,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/21")
             },
             new Sale {
-                OrderId = 10782,
+                OrderId = 10726,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -4288,7 +3840,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/17")
             },
             new Sale {
-                OrderId = 10783,
+                OrderId = 10727,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -4296,7 +3848,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/05")
             },
             new Sale {
-                OrderId = 10784,
+                OrderId = 10728,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -4304,7 +3856,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/05")
             },
             new Sale {
-                OrderId = 10785,
+                OrderId = 10729,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -4312,7 +3864,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/04")
             },
             new Sale {
-                OrderId = 10786,
+                OrderId = 10730,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -4320,7 +3872,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/12")
             },
             new Sale {
-                OrderId = 10787,
+                OrderId = 10731,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -4328,7 +3880,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/20")
             },
             new Sale {
-                OrderId = 10788,
+                OrderId = 10732,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -4336,7 +3888,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/02")
             },
             new Sale {
-                OrderId = 10789,
+                OrderId = 10733,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -4344,7 +3896,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/07")
             },
             new Sale {
-                OrderId = 10790,
+                OrderId = 10734,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -4352,23 +3904,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/18")
             },
             new Sale {
-                OrderId = 10791,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 1460,
-                Date = DateTime.Parse("2015/01/22")
-            },
-            new Sale {
-                OrderId = 10792,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 5040,
-                Date = DateTime.Parse("2015/01/10")
-            },
-            new Sale {
-                OrderId = 10793,
+                OrderId = 10735,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -4376,7 +3912,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/13")
             },
             new Sale {
-                OrderId = 10794,
+                OrderId = 10736,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -4384,7 +3920,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/22")
             },
             new Sale {
-                OrderId = 10795,
+                OrderId = 10737,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -4392,7 +3928,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/14")
             },
             new Sale {
-                OrderId = 10796,
+                OrderId = 10738,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -4400,7 +3936,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/23")
             },
             new Sale {
-                OrderId = 10797,
+                OrderId = 10739,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -4408,7 +3944,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/09")
             },
             new Sale {
-                OrderId = 10798,
+                OrderId = 10740,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -4416,7 +3952,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/02")
             },
             new Sale {
-                OrderId = 10799,
+                OrderId = 10741,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -4424,7 +3960,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/17")
             },
             new Sale {
-                OrderId = 10800,
+                OrderId = 10742,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -4432,7 +3968,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/20")
             },
             new Sale {
-                OrderId = 10801,
+                OrderId = 10743,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -4440,7 +3976,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/14")
             },
             new Sale {
-                OrderId = 10802,
+                OrderId = 10744,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -4448,7 +3984,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/06")
             },
             new Sale {
-                OrderId = 10803,
+                OrderId = 10745,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -4456,7 +3992,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/01/07")
             },
             new Sale {
-                OrderId = 10804,
+                OrderId = 10746,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -4464,7 +4000,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/13")
             },
             new Sale {
-                OrderId = 10805,
+                OrderId = 10747,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -4472,7 +4008,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/04")
             },
             new Sale {
-                OrderId = 10806,
+                OrderId = 10748,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -4480,7 +4016,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/22")
             },
             new Sale {
-                OrderId = 10807,
+                OrderId = 10749,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -4488,7 +4024,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/07")
             },
             new Sale {
-                OrderId = 10808,
+                OrderId = 10750,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -4496,7 +4032,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/21")
             },
             new Sale {
-                OrderId = 10809,
+                OrderId = 10751,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -4504,7 +4040,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/24")
             },
             new Sale {
-                OrderId = 10810,
+                OrderId = 10752,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -4512,7 +4048,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/10")
             },
             new Sale {
-                OrderId = 10811,
+                OrderId = 10753,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -4520,7 +4056,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/26")
             },
             new Sale {
-                OrderId = 10812,
+                OrderId = 10754,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -4528,7 +4064,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/18")
             },
             new Sale {
-                OrderId = 10813,
+                OrderId = 10755,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -4536,7 +4072,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/16")
             },
             new Sale {
-                OrderId = 10814,
+                OrderId = 10756,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -4544,23 +4080,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/07")
             },
             new Sale {
-                OrderId = 10815,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 1880,
-                Date = DateTime.Parse("2015/02/24")
-            },
-            new Sale {
-                OrderId = 10816,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 6180,
-                Date = DateTime.Parse("2015/02/26")
-            },
-            new Sale {
-                OrderId = 10817,
+                OrderId = 10757,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -4568,7 +4088,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/03")
             },
             new Sale {
-                OrderId = 10818,
+                OrderId = 10758,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -4576,7 +4096,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/26")
             },
             new Sale {
-                OrderId = 10819,
+                OrderId = 10759,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -4584,7 +4104,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/01")
             },
             new Sale {
-                OrderId = 10820,
+                OrderId = 10760,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -4592,7 +4112,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/23")
             },
             new Sale {
-                OrderId = 10821,
+                OrderId = 10761,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -4600,7 +4120,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/20")
             },
             new Sale {
-                OrderId = 10822,
+                OrderId = 10762,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -4608,7 +4128,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/02/19")
             },
             new Sale {
-                OrderId = 10823,
+                OrderId = 10763,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -4616,7 +4136,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/21")
             },
             new Sale {
-                OrderId = 10824,
+                OrderId = 10764,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -4624,7 +4144,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/21")
             },
             new Sale {
-                OrderId = 10825,
+                OrderId = 10765,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -4632,7 +4152,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/10")
             },
             new Sale {
-                OrderId = 10826,
+                OrderId = 10766,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -4640,7 +4160,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/15")
             },
             new Sale {
-                OrderId = 10827,
+                OrderId = 10767,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -4648,7 +4168,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/01")
             },
             new Sale {
-                OrderId = 10828,
+                OrderId = 10768,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -4656,7 +4176,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/17")
             },
             new Sale {
-                OrderId = 10829,
+                OrderId = 10769,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -4664,7 +4184,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/20")
             },
             new Sale {
-                OrderId = 10830,
+                OrderId = 10770,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -4672,7 +4192,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/18")
             },
             new Sale {
-                OrderId = 10831,
+                OrderId = 10771,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -4680,7 +4200,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/22")
             },
             new Sale {
-                OrderId = 10832,
+                OrderId = 10772,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -4688,7 +4208,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/17")
             },
             new Sale {
-                OrderId = 10833,
+                OrderId = 10773,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -4696,23 +4216,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/25")
             },
             new Sale {
-                OrderId = 10834,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 6300,
-                Date = DateTime.Parse("2015/03/20")
-            },
-            new Sale {
-                OrderId = 10835,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 8670,
-                Date = DateTime.Parse("2015/03/07")
-            },
-            new Sale {
-                OrderId = 10836,
+                OrderId = 10774,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -4720,7 +4224,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/23")
             },
             new Sale {
-                OrderId = 10837,
+                OrderId = 10775,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -4728,7 +4232,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/02")
             },
             new Sale {
-                OrderId = 10838,
+                OrderId = 10776,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -4736,7 +4240,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/17")
             },
             new Sale {
-                OrderId = 10839,
+                OrderId = 10777,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -4744,7 +4248,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/25")
             },
             new Sale {
-                OrderId = 10840,
+                OrderId = 10778,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -4752,7 +4256,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/01")
             },
             new Sale {
-                OrderId = 10841,
+                OrderId = 10779,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -4760,7 +4264,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/07")
             },
             new Sale {
-                OrderId = 10842,
+                OrderId = 10780,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -4768,7 +4272,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/19")
             },
             new Sale {
-                OrderId = 10843,
+                OrderId = 10781,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -4776,7 +4280,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/03/26")
             },
             new Sale {
-                OrderId = 10844,
+                OrderId = 10782,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -4784,7 +4288,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/02")
             },
             new Sale {
-                OrderId = 10845,
+                OrderId = 10783,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -4792,7 +4296,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/13")
             },
             new Sale {
-                OrderId = 10846,
+                OrderId = 10784,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -4800,7 +4304,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/07")
             },
             new Sale {
-                OrderId = 10847,
+                OrderId = 10785,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -4808,7 +4312,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/03")
             },
             new Sale {
-                OrderId = 10848,
+                OrderId = 10786,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -4816,7 +4320,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/03")
             },
             new Sale {
-                OrderId = 10849,
+                OrderId = 10787,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -4824,7 +4328,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/12")
             },
             new Sale {
-                OrderId = 10850,
+                OrderId = 10788,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -4832,7 +4336,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/07")
             },
             new Sale {
-                OrderId = 10851,
+                OrderId = 10789,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -4840,7 +4344,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/05")
             },
             new Sale {
-                OrderId = 10852,
+                OrderId = 10790,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -4848,7 +4352,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/24")
             },
             new Sale {
-                OrderId = 10853,
+                OrderId = 10791,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -4856,7 +4360,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/15")
             },
             new Sale {
-                OrderId = 10854,
+                OrderId = 10792,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -4864,23 +4368,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/13")
             },
             new Sale {
-                OrderId = 10855,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 2940,
-                Date = DateTime.Parse("2015/04/04")
-            },
-            new Sale {
-                OrderId = 10856,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 5580,
-                Date = DateTime.Parse("2015/04/16")
-            },
-            new Sale {
-                OrderId = 10857,
+                OrderId = 10793,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -4888,7 +4376,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/19")
             },
             new Sale {
-                OrderId = 10858,
+                OrderId = 10794,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -4896,7 +4384,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/26")
             },
             new Sale {
-                OrderId = 10859,
+                OrderId = 10795,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -4904,7 +4392,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/05")
             },
             new Sale {
-                OrderId = 10860,
+                OrderId = 10796,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -4912,7 +4400,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/06")
             },
             new Sale {
-                OrderId = 10861,
+                OrderId = 10797,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -4920,7 +4408,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/25")
             },
             new Sale {
-                OrderId = 10862,
+                OrderId = 10798,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -4928,7 +4416,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/05")
             },
             new Sale {
-                OrderId = 10863,
+                OrderId = 10799,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -4936,7 +4424,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/16")
             },
             new Sale {
-                OrderId = 10864,
+                OrderId = 10800,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -4944,15 +4432,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/02")
             },
             new Sale {
-                OrderId = 10865,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 5190,
-                Date = DateTime.Parse("2015/04/10")
-            },
-            new Sale {
-                OrderId = 10866,
+                OrderId = 10801,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -4960,7 +4440,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/26")
             },
             new Sale {
-                OrderId = 10867,
+                OrderId = 10802,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -4968,7 +4448,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/24")
             },
             new Sale {
-                OrderId = 10868,
+                OrderId = 10803,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -4976,7 +4456,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/04/17")
             },
             new Sale {
-                OrderId = 10869,
+                OrderId = 10804,
                 Region = "North America",
                 Country = "United States",
                 City = "New York",
@@ -4984,7 +4464,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/12")
             },
             new Sale {
-                OrderId = 10870,
+                OrderId = 10805,
                 Region = "North America",
                 Country = "United States",
                 City = "Los Angeles",
@@ -4992,7 +4472,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/23")
             },
             new Sale {
-                OrderId = 10871,
+                OrderId = 10806,
                 Region = "North America",
                 Country = "United States",
                 City = "Denver",
@@ -5000,7 +4480,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/21")
             },
             new Sale {
-                OrderId = 10872,
+                OrderId = 10807,
                 Region = "North America",
                 Country = "Canada",
                 City = "Vancouver",
@@ -5008,7 +4488,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/10")
             },
             new Sale {
-                OrderId = 10873,
+                OrderId = 10808,
                 Region = "North America",
                 Country = "Canada",
                 City = "Edmonton",
@@ -5016,7 +4496,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/15")
             },
             new Sale {
-                OrderId = 10874,
+                OrderId = 10809,
                 Region = "South America",
                 Country = "Brazil",
                 City = "Rio de Janeiro",
@@ -5024,7 +4504,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/16")
             },
             new Sale {
-                OrderId = 10875,
+                OrderId = 10810,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
@@ -5032,7 +4512,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/10")
             },
             new Sale {
-                OrderId = 10876,
+                OrderId = 10811,
                 Region = "South America",
                 Country = "Paraguay",
                 City = "Asuncion",
@@ -5040,7 +4520,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/06")
             },
             new Sale {
-                OrderId = 10877,
+                OrderId = 10812,
                 Region = "Europe",
                 Country = "United Kingdom",
                 City = "London",
@@ -5048,7 +4528,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/25")
             },
             new Sale {
-                OrderId = 10878,
+                OrderId = 10813,
                 Region = "Europe",
                 Country = "Germany",
                 City = "Berlin",
@@ -5056,7 +4536,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/14")
             },
             new Sale {
-                OrderId = 10879,
+                OrderId = 10814,
                 Region = "Europe",
                 Country = "Spain",
                 City = "Madrid",
@@ -5064,23 +4544,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/01")
             },
             new Sale {
-                OrderId = 10880,
-                Region = "Europe",
-                Country = "Russian Federation",
-                City = "Moscow",
-                Amount = 1400,
-                Date = DateTime.Parse("2015/05/22")
-            },
-            new Sale {
-                OrderId = 10881,
-                Region = "Asia",
-                Country = "China",
-                City = "Beijing",
-                Amount = 6060,
-                Date = DateTime.Parse("2015/05/22")
-            },
-            new Sale {
-                OrderId = 10882,
+                OrderId = 10815,
                 Region = "Asia",
                 Country = "Japan",
                 City = "Tokyo",
@@ -5088,7 +4552,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/13")
             },
             new Sale {
-                OrderId = 10883,
+                OrderId = 10816,
                 Region = "Asia",
                 Country = "Republic of Korea",
                 City = "Seoul",
@@ -5096,7 +4560,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/26")
             },
             new Sale {
-                OrderId = 10884,
+                OrderId = 10817,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Sydney",
@@ -5104,7 +4568,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/17")
             },
             new Sale {
-                OrderId = 10885,
+                OrderId = 10818,
                 Region = "Australia",
                 Country = "Australia",
                 City = "Melbourne",
@@ -5112,7 +4576,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/21")
             },
             new Sale {
-                OrderId = 10886,
+                OrderId = 10819,
                 Region = "Africa",
                 Country = "South Africa",
                 City = "Pretoria",
@@ -5120,7 +4584,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/21")
             },
             new Sale {
-                OrderId = 10887,
+                OrderId = 10820,
                 Region = "Africa",
                 Country = "Egypt",
                 City = "Cairo",
@@ -5128,7 +4592,7 @@ static class SampleData
                 Date = DateTime.Parse("2015/05/26")
             },
             new Sale {
-                OrderId = 10888,
+                OrderId = 10821,
                 Region = "South America",
                 Country = "Argentina",
                 City = "Buenos Aires",
