@@ -1,17 +1,15 @@
 import { Component, ViewChild } from '@angular/core';
-import {
-  DxDataGridComponent,
-  type DxDataGridTypes,
-} from 'devextreme-angular/ui/data-grid';
+import { DxDataGridModule, DxDataGridComponent, type DxDataGridTypes } from 'devextreme-angular/ui/data-grid';
 import type { DxPivotGridTypes } from 'devextreme-angular/ui/pivot-grid';
 import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
-import {
-  ArrayStore, DataSource, isItemsArray, LoadResult,
-} from 'devextreme-angular/common/data';
+import { ArrayStore, DataSource, isItemsArray, LoadResult, } from 'devextreme-angular/common/data';
 import notify from 'devextreme/ui/notify';
 import { Sale, Service } from './app.service';
+import { DxPopupModule } from 'devextreme-angular/ui/popup';
+import { DxPivotGridModule } from 'devextreme-angular/ui/pivot-grid';
 
 @Component({
+  imports: [DxDataGridModule, DxPopupModule, DxPivotGridModule],
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
