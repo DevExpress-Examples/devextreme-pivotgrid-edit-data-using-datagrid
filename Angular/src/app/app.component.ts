@@ -1,4 +1,4 @@
-import { Component, ViewChild } from '@angular/core';
+import { Component, ViewChild, ChangeDetectionStrategy } from '@angular/core';
 import { DxDataGridModule, DxDataGridComponent, type DxDataGridTypes } from 'devextreme-angular/ui/data-grid';
 import type { DxPivotGridTypes } from 'devextreme-angular/ui/pivot-grid';
 import PivotGridDataSource from 'devextreme/ui/pivot_grid/data_source';
@@ -12,6 +12,7 @@ import { DxPivotGridModule } from 'devextreme-angular/ui/pivot-grid';
   imports: [DxDataGridModule, DxPopupModule, DxPivotGridModule],
   selector: 'app-root',
   templateUrl: './app.component.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
