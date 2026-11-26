@@ -33,7 +33,7 @@
   <div *dxTemplate="let data of 'content'">
     <dx-data-grid
       #drillDownDataGrid
-      [dataSource]="dataGridDataSource"
+      [dataSource]="dataGridDataSource ?? []"
       [showBorders]="true"
       [width]="560"
       [height]="300"

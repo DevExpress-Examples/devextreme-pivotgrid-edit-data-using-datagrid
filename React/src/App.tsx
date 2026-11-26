@@ -54,7 +54,7 @@ function App(): JSX.Element {
 
   const [visible, setVisible] = useState(false);
   const [title, setTitle] = useState('');
-  const [gridDataSource, setGridDataSource] = useState<DataSource | null>(null);
+  const [gridDataSource, setGridDataSource] = useState<DataSource<Sale, number> | undefined>();
   const drillDownDataSourceRef = useRef<DataSource<Sale, number> | null>(null);
 
   const onCellClick = useCallback((e: PivotGridTypes.CellClickEvent): void => {
